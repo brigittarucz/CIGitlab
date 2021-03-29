@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const appRoutes = require('./routes/routes');
 
+// Comment check
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: false}));
